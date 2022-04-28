@@ -1,0 +1,516 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.main {
+    
+    width: 100%;
+    height: 785px;
+    background-image: url(images/netbak.jpg);
+    box-shadow: inset 0px 0px 50px 50px rgb(0 0 0 / 90%);
+
+
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+
+.logo,.sighup {
+    width: 50%;
+    height: 100px;
+
+}
+
+.logoimage {
+    width: 150px;
+    height: 40px;
+    padding: 20px;
+    padding-left: 48px;
+}
+
+.selection {
+    padding: 10px;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+   
+}
+
+.signin {
+    background-color: red;
+    color: white;
+    width: 2;
+    width: 90px;
+    height: 38px;
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+.hometext {
+    position: relative;
+    top: 100px;
+    right: 508px;
+    width: 950px;
+    height: 400px;
+
+}
+
+.text {
+    color: white;
+}
+
+.hometext h1 {
+    display: block;
+    width: 800px;
+    height: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    margin: 0px 75px;
+    text-align: center;
+}
+
+.large {
+    font-size: 64px;
+}
+
+h2 {
+    display: block;
+    width: 800px;
+    height: 33px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin: 16px 75px;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    width: 715px;
+    height: 44px;
+    margin: 0px 117px;
+    padding: 0px 47px 20px;
+    font-size: 19px;
+    font-weight: 100;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.emaillable {
+    position: relative;
+    bottom: 70px;
+    right: 380px;
+    width: 500px;
+    height: 70px;
+    display: flex;
+}
+
+.email {
+    width: 500px;
+    height: 70px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.emailfont {
+    font-size: 50px;
+}
+
+.startedbutton {
+    position: relative;
+    top: 2px;
+    width: 246px;
+    height: 70px;
+    background-color: #e50914;
+    color: white;
+    display: flex;
+    padding: 0px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.bttnname {
+    width: 159px;
+    height: 54px;
+    padding: 18px 0px;
+    font-size: 30px;
+
+}
+
+.anglerightsvg {
+
+    width: 11px;
+    height: 22px;
+    margin: 1px 2px;
+    padding-top: 24px;
+}
+
+.tvcontainer {
+    width: 100%;
+    height: 439px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid grey;
+    border-top: 8px solid grey;
+}
+
+.tvcont1 {
+    width: 50%;
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+
+}
+
+.tvheading {
+    font-size: 50px;
+    margin: 8px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+}
+
+.tvpara {
+    font-size: 26px;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+}
+
+.tvcon2 {
+    width: 50%;
+    height: 439px;
+
+
+}
+
+.tvimage {
+
+    position: relative;
+    top: -251px;
+    left: 22px;
+    height: 365px;
+    width: 543px;
+}
+
+.tvvideo {
+
+    position: relative;
+    top: 83px;
+    left: 80px;
+    height: auto;
+    width: auto;
+}
+
+
+.mobilecontainer {
+
+    width: 100%;
+    height: 471px;
+    background-color: black;
+    display: flex;
+
+    border-bottom: 5px solid gray;
+}
+
+.mobcon1 {
+    width: 50%;
+    height: 470px;
+
+
+
+
+}
+
+.mobimg {
+    position: relative;
+    height: 400px;
+
+    padding-left: 100px;
+
+}
+
+.mobcon2 {
+    width: 50%;
+    height: 471px;
+
+}
+
+.mobheading {
+    width: 547px;
+    height: 110px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 100px;
+}
+
+.mobpara {
+    width: 547px;
+    height: 110px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+.videocontainer {
+    display: flex;
+    width: 100%;
+    height: 543px;
+    background-color: black;
+    border-bottom: 5px solid gray;
+}
+
+.videocon1 {
+
+    width: 50%;
+    height: 543px;
+    
+
+}
+
+.conheading {
+    position: relative;
+    left: 150px;
+    top: 150px;
+    width: 547px;
+    height: 55px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.videopara {
+    position: relative;
+    left: 150px;
+    top: 150px;
+    width: 547px;
+    height: 67px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.videocon2{
+    width: 50%;
+    height: 543px;
+   
+}
+.screenvideo{
+    
+    position: relative;
+    left: 100px;
+    top: 75px;
+    width: 393px;
+
+
+}
+.screenimage{
+    position: relative;
+    bottom: 200px;
+    right: 20px;
+}
+
+
+
+
+
+.kidscontainer {
+    display: flex;
+    width: 100%;
+    height: 429px;
+    background-color: black;
+    border-bottom: 5px solid gray;
+    justify-content: space-between;
+
+}
+.kidcon1{
+    width: 50%;
+    height: 429px;
+    
+}
+
+.kidsimage{
+   position: relative;
+   left: 150px;
+    height: 429px;
+    
+}
+.kidcon2{
+    width: 50%;
+    height: 429px;
+    
+}
+.kidheading{
+    width: 547px;
+    height: 110px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 20px;
+    padding-top: 70px;
+}
+.kidpara{
+    width: 547px;
+    height: 110px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 20px;
+    margin-left: 20px;
+    
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 950px;
+    background-color: black;
+    border-bottom: 5px solid gray;
+    margin-top: -21px;
+    
+    
+}
+.footerheading{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: relative;
+    top: 80px;
+    left: 450px;
+}
+.footermain{
+    position: relative;
+    top: 85px;
+    left: 325px;
+    
+}
+.footer1{
+    margin: 10px;
+    width: 818px;
+    height: 77px;
+    background-color: grey;
+    position: relative;
+    left: 20px;
+    
+}
+.footertext{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.footerlast{
+    position: relative;
+    top: 130px;
+    width: 950;
+    height: 137px;
+    
+}
+.footerpara{
+    position: relative;
+    left: 450px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.emaillable2 {
+    position: relative;
+    left: 400px;   
+    width: 500px;
+    height: 70px;
+    display: flex;
+
+}
+.footercontainer {
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    
+}
+.finalcontainer{
+    width: 100%;
+    height: 480px;
+    margin-top: -16px;
+    background-color: black;
+}
+.calltext{
+    position: relative;
+    top: 150px;
+    left: 350px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+
+    
+}
+.footerflex{
+   
+    display: flex;
+    position: relative;
+    top: 150px;
+    left: 350px;
+    
+}
+.colums{
+    margin-right: 20px;
+    width: 200px;
+    height: 170px;
+    
+}
+.columstext{
+    
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    cursor: pointer;
+}
+.columstext:hover{
+    text-decoration: underline;
+}
+.finalselect{
+    position: relative;
+    top: 120px;
+    right: 150px;
+}
+.selection2 {
+    padding: 10px;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 25px;
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+}
+.columstext2{
+    position: relative;
+    top: 20px;
+    left: 335px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
